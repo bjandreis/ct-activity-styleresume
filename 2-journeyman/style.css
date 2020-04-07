@@ -5,10 +5,12 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 	margin: 0;
 	padding: 0;
 	vertical-align: baseline;
+	font-family: Rokkitt, Helvetica, Arial, sans-serif;
 }
 
 html, body {
 	font-size: 16px;
+	font-family: Lato, Helvetica, Arial, sans-serif;
 }
 
 .clear {
@@ -19,6 +21,11 @@ p {
 	font-size: 1em;
 	line-height: 1.4em;
 	margin-bottom: 20px;
+	font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: black;
 }
 
 #cv {
@@ -29,6 +36,7 @@ p {
 
 .mainDetails {
 	padding: 25px 35px;
+	border-bottom: 2px solid #cf8a05;
 }
 
 #name h1 {
@@ -95,9 +103,17 @@ section:last-child {
 	padding: 20px 0 10px;
 }
 
+section:not(:last-child) {
+	border-bottom: 2px solid #dedede;
+}
+
 .sectionTitle {
 	float: left;
 	width: 25%;
+}
+
+.sectionTitle h1 {
+	color: #cf8a05;
 }
 
 .sectionContent {
@@ -130,4 +146,8 @@ section:last-child {
 
 .keySkills ul li {
 	margin-bottom: 3px;
+}
+
+li {
+	font-family: Lato, Helvetica, Arial, sans-serif;
 }
